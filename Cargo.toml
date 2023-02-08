@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "egui_skia_auto_fallback_demo"
+version = "0.1.0"
+
+[dependencies]
+eframe = {git = "https://github.com/rustytsuki/egui", branch = "rust-office", default-features = false, features = ["skia", "default_fonts"]}
+egui_demo_lib = {git = "https://github.com/rustytsuki/egui", branch = "rust-office"}
