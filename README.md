@@ -6,3 +6,5 @@ some code from [https://github.com/lucasmerlin/egui_skia](https://github.com/luc
 
 tested both in Mac and Windows, just cargo run, having fun!
 
+note: in windows, you have to upgrade your msvc toolchain up to latest version, included the newest patch, or the skia-safe lib will not be compiled successfully.
+
