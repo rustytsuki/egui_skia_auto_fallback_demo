@@ -22,3 +22,6 @@ if you want run it in pure cpu software mode
 
 `cargo run --features=skia_force_cpu`
 
+the binary build on windows can be found here
+
+[https://github.com/rustytsuki/egui_skia_auto_fallback_demo/releases](https://github.com/rustytsuki/egui_skia_auto_fallback_demo/releases)
