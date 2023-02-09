@@ -9,5 +9,5 @@ pub fn main() {
         "Egui Skia Auto Fallback Demo",
         native_options,
         Box::new(|cc| Box::new(app::SkiaApp::new(cc))),
-    )
+    ).unwrap();
 }
