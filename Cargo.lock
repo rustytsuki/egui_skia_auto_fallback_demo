@@ -488,7 +488,7 @@ dependencies = [
 [[package]]
 name = "ecolor"
 version = "0.20.0"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "bytemuck",
 ]
@@ -496,7 +496,7 @@ dependencies = [
 [[package]]
 name = "eframe"
 version = "0.20.1"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "bytemuck",
  "egui",
@@ -519,7 +519,7 @@ dependencies = [
 [[package]]
 name = "egui"
 version = "0.20.1"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "ahash",
  "epaint",
@@ -530,7 +530,7 @@ dependencies = [
 [[package]]
 name = "egui-winit"
 version = "0.20.1"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "arboard",
  "egui",
@@ -544,7 +544,7 @@ dependencies = [
 [[package]]
 name = "egui_demo_lib"
 version = "0.20.0"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "egui",
  "egui_extras",
@@ -556,7 +556,7 @@ dependencies = [
 [[package]]
 name = "egui_extras"
 version = "0.20.0"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "egui",
  "serde",
@@ -579,7 +579,7 @@ checksum = "7fcaabb2fef8c910e7f4c7ce9f67a1283a1715879a7c230ca9d6d1ae31f16d91"
 [[package]]
 name = "emath"
 version = "0.20.0"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "bytemuck",
 ]
@@ -608,7 +608,7 @@ dependencies = [
 [[package]]
 name = "epaint"
 version = "0.20.0"
-source = "git+https://github.com/rustytsuki/egui?branch=rust-office#186282d377eef19357add89ce2158f7ced96e28f"
+source = "git+https://github.com/rustytsuki/egui?branch=rust-office#44317a94dff8a8f8e9652aa84b820bf746c6403d"
 dependencies = [
  "ab_glyph",
  "ahash",
@@ -1558,9 +1558,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.92"
+version = "1.0.93"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7434af0dc1cbd59268aa98b4c22c131c0584d2232f6fb166efb993e2832e896a"
+checksum = "cad406b69c91885b5107daf2c29572f6c8cdb3c66826821e286c533490c0bc76"
 dependencies = [
  "itoa",
  "ryu",
