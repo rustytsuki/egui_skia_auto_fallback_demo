@@ -7,5 +7,5 @@ version = "0.1.0"
 skia_force_cpu = ["eframe/skia_force_cpu"]
 
 [dependencies]
-eframe = {git = "https://github.com/rustytsuki/egui", branch = "rust-office", default-features = false, features = ["skia", "default_fonts"]}
-egui_demo_lib = {git = "https://github.com/rustytsuki/egui", branch = "rust-office"}
+eframe = {git = "https://github.com/rustytsuki/egui", rev = "0f2a61d7", default-features = false, features = ["skia", "default_fonts"]}
+egui_demo_lib = {git = "https://github.com/rustytsuki/egui", rev = "0f2a61d7"}
